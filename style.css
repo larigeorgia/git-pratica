@@ -11,7 +11,7 @@
 /* https://caniuse.com/css-media-range-syntax */
 @media screen and (width >= 600px) {
   :root {
-    --bg-color: rgb(58, 80, 78);
+    --bg-color: rgb(192, 196, 195);
   }
 }
 
@@ -80,6 +80,7 @@ main {
   .card {
     /*     background: yellow; */
     grid-template-columns: auto minmax(25ch, 1fr);
+    
   }
 
   .card h2 {
@@ -90,7 +91,7 @@ main {
 @layer demo {
   h1,
   p {
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   img {
